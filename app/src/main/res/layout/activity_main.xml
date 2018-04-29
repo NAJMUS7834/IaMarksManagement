@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/shape2"
+    tools:context=".MainActivity">
+    <EditText
+        android:id="@+id/roll_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textStyle="bold"
+        android:hint="Enter USN"
+         >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:ems="10"
+        android:hint="Enter Name" />
+
+    <EditText
+        android:id="@+id/marks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textStyle="bold"
+        android:hint="Enter Marks"
+        android:inputType="number" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/addbtn"
+            android:layout_width="140dp"
+            android:layout_height="90dp"
+            android:text="Add"
+            android:textStyle="bold"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:background="@drawable/shape"/>
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/deletebtn"
+            android:layout_width="140dp"
+            android:layout_height="90dp"
+            android:textStyle="bold"
+            android:background="@drawable/shape3"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:text="Delete" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/modifybtn"
+            android:layout_width="140dp"
+            android:layout_height="90dp"
+            android:text="Modify"
+            android:textStyle="bold"
+            android:background="@drawable/shape3"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/viewbtn"
+            android:layout_width="140dp"
+            android:layout_height="90dp"
+            android:textStyle="bold"
+            android:background="@drawable/shape"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:text="View"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/viewallbtn"
+            android:layout_width="140dp"
+            android:layout_height="90dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:background="@drawable/shape"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:text="View all" />
+
+        <Button
+            android:id="@+id/showbtn"
+            android:layout_width="140dp"
+            android:layout_height="90dp"
+            android:text="Show"
+            android:textStyle="bold"
+            android:background="@drawable/shape3"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>
