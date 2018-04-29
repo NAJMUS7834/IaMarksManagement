@@ -11,7 +11,6 @@ Student Marks management using SQLiteDatabase.
 
 ![screenshot_2018-04-30-00-05-11-952_com example najmus iamarksmanagement](https://user-images.githubusercontent.com/31741209/39409812-2f3e5290-4c0b-11e8-98bd-d61cb50627ab.png)
 
-![screenshot_2018-04-30-00-05-40-242_com example najmus iamarksmanagement](https://user-images.githubusercontent.com/31741209/39409823-528f1acc-4c0b-11e8-9901-269dbf324a5b.png)
 
 ![screenshot_2018-04-30-00-05-50-080_com example najmus iamarksmanagement](https://user-images.githubusercontent.com/31741209/39409827-58bbc724-4c0b-11e8-818e-ece6c62627e6.png)
 
